@@ -55,6 +55,7 @@ nav:
   - 计算机:
       - 计算机总览: computer/index.md
       - 数据结构基础: computer/cs-fundamentals.md
+      - 并查集: computer/fds/union-find.md
       - Hot100 刷题: computer/hot100.md
   - 日志:
       - 更新记录: journal/index.md
