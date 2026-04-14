@@ -1,5 +1,5 @@
 site_name: 茗苕芝士铺
-site_description: 聚合 AI、留学与计算机笔记的个人知识网站
+site_description: 聚合 AI、数学基础、留学与计算机笔记的个人知识网站
 site_author: wlm
 # 部署后建议改成你自己的正式域名
 site_url: https://mingshaoai.xyz
@@ -47,6 +47,8 @@ nav:
       - 学习路线: ai/learning-roadmap.md
       - 模式识别与机器学习: ai/pattern-recognition-and-ml.md
       - 自然语言处理: ai/nlp.md
+  - 数学基础:
+      - 数学总览: math/index.md
   - 留学:
       - 留学总览: study-abroad/index.md
       - 港新申请规划: study-abroad/application-plan.md
