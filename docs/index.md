@@ -1,9 +1,9 @@
 <div class="landing-hero landing-hero--simple">
   <div class="landing-copy">
     <p class="landing-eyebrow">MINGSHAOAI.XYZ</p>
-    <h1>我的笔记网站</h1>
+    <h1>茗芍的笔记网站</h1>
     <p class="landing-lead">
-      用来整理 AI、数学基础、计算机和留学相关的笔记。
+      用来整理 AI、数学基础、计算机相关的笔记。
     </p>
     <div class="landing-actions">
       <a class="md-button md-button--primary" href="ai/index.md">AI</a>
@@ -22,12 +22,12 @@
 
   <a class="simple-card" href="math/index.md">
     <h2>数学基础</h2>
-    <p>线性代数、概率统计和基础公式。</p>
+    <p>线性代数、微积分、概率论与数理统计、离散数学。</p>
   </a>
 
   <a class="simple-card" href="computer/index.md">
     <h2>计算机</h2>
-    <p>数据结构基础、并查集、Hot100 刷题。</p>
+    <p>数据结构基础、Hot100 刷题。</p>
   </a>
 
   <a class="simple-card" href="study-abroad/index.md">

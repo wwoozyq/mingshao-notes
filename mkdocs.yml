@@ -60,13 +60,14 @@ nav:
           - 支配集独立集匹配与着色: math/discrete-mathematics/09-支配集独立集匹配与着色.md
           - 命题逻辑: math/discrete-mathematics/10-命题逻辑.md
           - 一阶逻辑: math/discrete-mathematics/11-一阶逻辑.md
-  - 留学:
-      - 留学总览: study-abroad/index.md
+  
   - 计算机:
     - 计算机总览: computer/index.md
     - 数据结构基础:
       - 总览: computer/fds/cs-fundamentals.md
       - 并查集: computer/fds/union-find.md
     - Hot100 刷题: computer/hot100.md
+    - 留学:
+      - 留学总览: study-abroad/index.md
 extra_css:
   - stylesheets/extra.css
