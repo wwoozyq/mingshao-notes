@@ -44,18 +44,16 @@ nav:
   - 首页: index.md
   - AI:
       - AI 总览: ai/index.md
-      - 学习路线: ai/learning-roadmap.md
       - 模式识别与机器学习: ai/pattern-recognition-and-ml.md
       - 自然语言处理: ai/nlp.md
   - 数学基础:
       - 数学总览: math/index.md
   - 留学:
       - 留学总览: study-abroad/index.md
-      - 港新申请规划: study-abroad/application-plan.md
   - 计算机:
       - 计算机总览: computer/index.md
-      - 数据结构基础:computer/cs-fundamentals.md
-          - 并查集: computer/fds/union-find.md
+      - 数据结构基础: computer/cs-fundamentals.md
+      - 并查集: computer/fds/union-find.md
       - Hot100 刷题: computer/hot100.md
   - 日志:
       - 更新记录: journal/index.md
