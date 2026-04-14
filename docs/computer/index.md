@@ -4,7 +4,7 @@
 
 ## 当前内容
 
-- [数据结构基础](cs-fundamentals.md)
+- [数据结构基础](fds/cs-fundamentals.md)
 - [并查集](fds/union-find.md)
 - [Hot100 刷题](hot100.md)
 

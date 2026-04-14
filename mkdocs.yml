@@ -67,7 +67,7 @@ nav:
       - 总览: computer/fds/cs-fundamentals.md
       - 并查集: computer/fds/union-find.md
     - Hot100 刷题: computer/hot100.md
-    - 留学:
+  - 留学:
       - 留学总览: study-abroad/index.md
 extra_css:
   - stylesheets/extra.css
