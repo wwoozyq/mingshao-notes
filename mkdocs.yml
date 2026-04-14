@@ -1,7 +1,6 @@
 site_name: 茗苕芝士铺
-site_description: 聚合 AI、数学基础、留学与计算机笔记的个人知识网站
+site_description: ZJUer的个人知识网站
 site_author: wlm
-# 部署后建议改成你自己的正式域名
 site_url: https://mingshaoai.xyz
 repo_url: https://github.com/wwoozyq/mingshao-notes
 repo_name: wwoozyq/mingshao-notes
@@ -48,16 +47,26 @@ nav:
       - 自然语言处理: ai/nlp.md
   - 数学基础:
       - 数学总览: math/index.md
+      - 离散数学:
+          - 总览: math/discrete-mathematics/index.md
+          - 集合论: math/discrete-mathematics/01-集合论.md
+          - 二元关系: math/discrete-mathematics/02-二元关系.md
+          - 函数: math/discrete-mathematics/03-函数.md
+          - 初等数论: math/discrete-mathematics/04-初等数论.md
+          - 图的基本概念: math/discrete-mathematics/05-图的基本概念.md
+          - 欧拉图与哈密顿图: math/discrete-mathematics/06-欧拉图与哈密顿图.md
+          - 树: math/discrete-mathematics/07-树.md
+          - 平面图: math/discrete-mathematics/08-平面图.md
+          - 支配集独立集匹配与着色: math/discrete-mathematics/09-支配集独立集匹配与着色.md
+          - 命题逻辑: math/discrete-mathematics/10-命题逻辑.md
+          - 一阶逻辑: math/discrete-mathematics/11-一阶逻辑.md
   - 留学:
       - 留学总览: study-abroad/index.md
   - 计算机:
-      - 计算机总览: computer/index.md
-      - 数据结构基础: computer/cs-fundamentals.md
+    - 计算机总览: computer/index.md
+    - 数据结构基础:
+      - 总览: computer/fds/cs-fundamentals.md
       - 并查集: computer/fds/union-find.md
-      - Hot100 刷题: computer/hot100.md
-  - 日志:
-      - 更新记录: journal/index.md
-  - 关于: about.md
-
+    - Hot100 刷题: computer/hot100.md
 extra_css:
   - stylesheets/extra.css
