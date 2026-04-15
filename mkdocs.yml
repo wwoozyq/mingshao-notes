@@ -28,6 +28,8 @@ markdown_extensions:
   - footnotes
   - md_in_html
   - tables
+  - pymdownx.arithmatex:
+      generic: true
   - pymdownx.details
   - pymdownx.highlight:
       anchor_linenums: true
@@ -74,3 +76,7 @@ nav:
       - 留学总览: study-abroad/index.md
 extra_css:
   - stylesheets/extra.css
+
+extra_javascript:
+  - javascripts/mathjax.js
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
