@@ -3,10 +3,11 @@
     <p class="landing-eyebrow">MINGSHAOAI.XYZ</p>
     <h1>茗芍的笔记网站</h1>
     <p class="landing-lead">
-      用来整理 AI、数学基础、计算机相关的笔记。
+      用来整理 AI、生物医学、数学基础、计算机相关的笔记。
     </p>
     <div class="landing-actions">
       <a class="md-button md-button--primary" href="ai/index.md">AI</a>
+      <a class="md-button" href="biomedical/index.md">生物医学</a>
       <a class="md-button" href="math/index.md">数学基础</a>
       <a class="md-button" href="computer/index.md">计算机</a>
       <a class="md-button" href="study-abroad/index.md">留学</a>
@@ -23,6 +24,11 @@
   <a class="simple-card" href="math/index.md">
     <h2>数学基础</h2>
     <p>线性代数、微积分、概率论与数理统计、离散数学。</p>
+  </a>
+
+  <a class="simple-card" href="biomedical/index.md">
+    <h2>生物医学</h2>
+    <p>生物医学图像处理等课程与交叉方向笔记。</p>
   </a>
 
   <a class="simple-card" href="computer/index.md">

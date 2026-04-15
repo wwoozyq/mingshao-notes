@@ -45,12 +45,15 @@ nav:
       - AI 总览: ai/index.md
       - 模式识别与机器学习: ai/pattern-recognition-and-ml.md
       - 自然语言处理: ai/nlp.md
+  - 生物医学:
+      - 生物医学总览: biomedical/index.md
+      - 生物医学图像处理: biomedical/biomedical-image-processing.md
   - 数学基础:
       - 数学总览: math/index.md
       - 离散数学:
           - 总览: math/discrete-mathematics/index.md
-          - 集合论: math/discrete-mathematics/01-集合论.md
-          - 二元关系: math/discrete-mathematics/02-二元关系.md
+          - 1.集合论: math/discrete-mathematics/01-集合论.md
+          - 2.二元关系: math/discrete-mathematics/02-二元关系.md
           - 函数: math/discrete-mathematics/03-函数.md
           - 初等数论: math/discrete-mathematics/04-初等数论.md
           - 图的基本概念: math/discrete-mathematics/05-图的基本概念.md
