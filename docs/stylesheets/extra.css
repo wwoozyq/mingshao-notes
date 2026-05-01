@@ -237,6 +237,8 @@ pre {
 .md-typeset .video-platforms__card {
   display: flex;
   flex-direction: column;
+  align-items: center;
+  justify-content: center;
   gap: 0.22rem;
   min-height: 5.2rem;
   padding: 0.85rem 0.95rem;
@@ -260,13 +262,17 @@ pre {
 }
 
 .md-typeset .video-platforms__card strong {
+  color: #5f7ee8;
   font-size: 1rem;
+  text-align: center;
 }
 
 .md-typeset .video-platforms__card span {
-  color: var(--md-default-fg-color--light);
-  font-size: 0.78rem;
+  color: #35b81f;
+  font-size: 0.82rem;
+  font-weight: 700;
   line-height: 1.45;
+  text-align: center;
 }
 
 .md-typeset .video-tool__grid {

@@ -3,25 +3,25 @@
 这个小工具会把你粘贴的视频网页地址交给所选的第三方解析接口，并在当前页面生成播放窗口。它只做在线播放入口，不保存视频、不提供下载，也不绕过会员、登录、DRM 或平台权限限制。若下方播放窗口黑屏或被浏览器拦截，可以点击生成后的“打开解析页”到新页面观看。
 
 <div class="video-platforms" aria-label="常见视频平台">
-  <a class="video-platforms__card" href="https://www.iqiyi.com/" target="_blank" rel="noreferrer">
-    <strong>爱奇艺</strong>
-    <span>打开官网复制视频页链接</span>
-  </a>
   <a class="video-platforms__card" href="https://v.qq.com/" target="_blank" rel="noreferrer">
     <strong>腾讯视频</strong>
-    <span>打开官网复制视频页链接</span>
+    <span>可用-超推荐</span>
   </a>
-  <a class="video-platforms__card" href="https://www.mgtv.com/" target="_blank" rel="noreferrer">
-    <strong>芒果TV</strong>
-    <span>打开官网复制视频页链接</span>
+  <a class="video-platforms__card" href="https://www.iqiyi.com/" target="_blank" rel="noreferrer">
+    <strong>爱奇艺</strong>
+    <span>可用-超推荐</span>
   </a>
   <a class="video-platforms__card" href="https://www.youku.com/" target="_blank" rel="noreferrer">
     <strong>优酷</strong>
-    <span>打开官网复制视频页链接</span>
+    <span>可用-超推荐</span>
+  </a>
+  <a class="video-platforms__card" href="https://www.mgtv.com/" target="_blank" rel="noreferrer">
+    <strong>芒果TV</strong>
+    <span>可用-超推荐</span>
   </a>
   <a class="video-platforms__card" href="https://www.bilibili.com/" target="_blank" rel="noreferrer">
     <strong>哔哩哔哩</strong>
-    <span>打开官网复制视频页链接</span>
+    <span>可用-推荐</span>
   </a>
 </div>
 
