@@ -10,3 +10,16 @@
 - 大语言模型
 
 目前还没有拆分出更细的页面，后面会继续补充。
+
+## 词向量
+
+[下载 Word Vectors PDF](../assets/pdf/word-vectors.pdf)
+
+<iframe
+  src="../../assets/pdf/word-vectors.pdf"
+  title="Word Vectors PDF"
+  width="100%"
+  height="720"
+  style="border: 1px solid #dcccb7; border-radius: 8px;"
+>
+</iframe>
