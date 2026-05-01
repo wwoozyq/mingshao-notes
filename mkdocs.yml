@@ -74,6 +74,8 @@ nav:
       - 线段树: computer/fds/segment-tree.md
       - 编程错题本: computer/fds/error-notebook.md
     - Hot100 刷题: computer/hot100.md
+  - 工具:
+      - 在线视频播放: tools/video-player.md
   - 留学:
       - 留学总览: study-abroad/index.md
 extra_css:
