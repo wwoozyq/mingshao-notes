@@ -23,7 +23,6 @@ theme:
     - navigation.sections
     - navigation.indexes
     - navigation.top
-    - navigation.instant
     - navigation.tracking
     - navigation.footer
     - search.suggest
