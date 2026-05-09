@@ -25,23 +25,124 @@
 
 表格按推定申请难度分层。难度不是录取率，而是根据公开门槛推断：相关专业要求、数学/编程先修、GRE/GMAT/笔试/面试、工作经验、项目定位等。
 
-| 梯队 | 学校 | 项目 | AI 属性 | 学制 | 学费与人民币估算 | 核心门槛 | 最近已公布时间 |
-|---|---|---|---|---|---|---|---|
-| 第一梯队 | NUS | Master of Computing in Artificial Intelligence | 独立 AI | FT 1.5 年 / PT 2.5 年 | S\$67,144，约 ¥360,120 | 计算机或相关背景；相关路线需 IT 经验；GRE 320/3.5 或 GMAT 650；TOEFL 90 / IELTS 6.0；至少 1 封推荐 | 2026 Aug：2025-10-01 至 2026-01-31 |
-| 第一梯队 | NTU | Master of Science in Artificial Intelligence | 独立 AI | FT 1 年 / PT 2 年 | S\$63,220，约 ¥339,074 | CS/CE/相关学科 good honours，或 good bachelor + 2 年相关经验；TOEFL 100 / IELTS 6.5 或 MOI | CCDS semester 项目通常 Aug intake 11 月至 1 月，Jan intake 7 月至 8 月 |
-| 第一梯队 | HKUST | MSc in Artificial Intelligence | 独立 AI | FT 1 年 / PT 2 年 | HK\$400,000，约 ¥347,360 | CE/CS/相关专业；其他专业需 2 年相关工作经验；TOEFL 80 / IELTS 6.5 | 2026 Fall：2025-11-01 / 2026-01-01 / 2026-03-01 |
-| 第一梯队 | HKUST | MSc in AI and Entrepreneurship | 独立 AI + 创业 | FT 2 年 | HK\$540,000，约 ¥468,936 | 与 MSc(AI) 同口径；第二年含上海实习 / 创业实践 | 2026 Fall：2025-11-01 / 2026-01-01 / 2026-03-01 |
-| 第一梯队 | CUHK | MSc in Artificial Intelligence | 独立 AI | FT 1.5 年 / PT 3 年 | HK\$380,000，约 ¥329,992 | 工程/科学学士，通常 honours ≥ Second Class 或平均 B；其他专业需 2 年相关经验；IELTS 6.5 / TOEFL 79；GRE 不要求 | 2025-10-06 / 2025-11-17 / 2025-12-29 / 2026-02-26 |
-| 第二梯队 | NUS-ISS | Master of Technology in Artificial Intelligence Systems | 独立 AI 系统 | FT 1 年 / PT 2 年 | 学费数值待补；申请费 S\$50 未含 GST | 理工本科且 GPA 至少 B；海外 GRE 或本地 Entrance Test；面试；最好 2 年经验 | Jan 2027 PT 应于 2026-10-01 前提交；Aug 2027 FT 于 2026-10-01 开放 |
-| 第二梯队 | HKU | MSc in Artificial Intelligence | 独立 AI | FT 1.5 年 | HK\$390,000，约 ¥338,676 | 本科；要求线代、微积分、概率、统计、编程基础；GRE/GMAT 不要求 | 2026-09 入学；截止日待补 |
-| 第二梯队 | NUS | MSc AI for Science | 独立 AI for Science | FT 1 年 / PT 2 年 | 学费数值待补；申请费 S\$100；acceptance fee S\$5,450 | Science / Engineering / Applied Math honours 或 4 年制本科；TOEFL 85 / IELTS 6.0 | Early：2026-05-16 至 2026-07-15；Regular：2026-10-01 至 2027-03-15 |
-| 第二梯队 | CUHK | MSc in Artificial Intelligence for Science | 独立 AI for Science | FT 1.5 年 / PT 3 年 | HK\$350,000，约 ¥303,940 | 完整 admission checklist 待补；Science Faculty / Physics 方向 | 2026-04-30；rolling，额满可提前结束 |
-| 第二梯队 | NTU | MSc in Artificial Intelligence in Medicine | 医学 AI | 官网明确 FT；30 AUs | S\$60,000 未含 GST，约 ¥321,804 | Medicine / Biomedical Sciences / CS / Engineering 等相关本科；TOEFL 100 / IELTS 6.5 | 2026-01-01 至 2026-03-31 |
-| 第二梯队 | HKU | MSc(CompSc) - AI & Decentralized Technologies Stream | MSc(CompSc) 内 AI 方向 | FT 1 年 / PT 2 年 | Local HK\$275,000，约 ¥238,810；Non-local HK\$375,000，约 ¥325,650 | stream 级完整门槛待补；按 MSc(CompSc) 招生 | Main：2025-12-01；Clearing：2026-04-30 |
-| 第三梯队 | NUS | MSc (Artificial Intelligence & Innovation) | 跨学科 AI / 创新 | FT 12-24 月 / PT 24-36 月 | S\$58,860 含 GST，约 ¥315,690 | 4 年 honours 优先；3 年制本科需 1 年工作经验；TOEFL 85 / IELTS 6.0；GMAT/GRE 非必需 | Aug 2027：Nov 2026 至 Jan 2027 |
-| 第三梯队 | NTU | Master of Computing in Applied AI | 应用 AI | FT 3 trimesters / PT 6 trimesters，但官网口径需确认 | S\$65,400，约 ¥350,766 | 任意学士；TOEFL 85 / IELTS 6.0 或 MOI；2 年经验有优势但非硬性 | Aug intake：2025-11-01 至 2026-03-31；Nov intake：2026-03-01 至 2026-05-31 |
-| 第三梯队 | NTU | MSc in Enterprise Artificial Intelligence | 企业 AI / 治理 | FT 1 年 / PT 1.5-3 年 | 学费数值待补 | 任意 honours 本科；TOEFL 90 / IELTS 6.0；PT 最好有 1 年相关经验 | 2025-11-01 至 2026-03-31 |
-| 高管通道 | NUS | Executive Master in AI and Digital Transformation | 高管 AI / 数字化 | PT 1 年，最长 3 年 | S\$116,000，约 ¥622,154 | 通常要本科；无本科学历但职业成就突出可考虑；至少 8 年全职经验 | January 2027 intake 已开放；截止日待补 |
+<table class="study-abroad-program-table">
+  <thead>
+    <tr>
+      <th>梯队</th>
+      <th>学校</th>
+      <th>项目</th>
+      <th>学制与学费</th>
+      <th>申请要点</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>第一梯队</td>
+      <td>NUS</td>
+      <td><strong>Master of Computing in Artificial Intelligence</strong><br><span>独立 AI</span></td>
+      <td>FT 1.5 年 / PT 2.5 年<br>S&#36;67,144，约 ¥360,120</td>
+      <td>计算机或相关背景；相关路线需 IT 经验；GRE 320/3.5 或 GMAT 650；TOEFL 90 / IELTS 6.0；至少 1 封推荐。2026 Aug：2025-10-01 至 2026-01-31。</td>
+    </tr>
+    <tr>
+      <td>第一梯队</td>
+      <td>NTU</td>
+      <td><strong>Master of Science in Artificial Intelligence</strong><br><span>独立 AI</span></td>
+      <td>FT 1 年 / PT 2 年<br>S&#36;63,220，约 ¥339,074</td>
+      <td>CS/CE/相关学科 good honours，或 good bachelor + 2 年相关经验；TOEFL 100 / IELTS 6.5 或 MOI。CCDS semester 项目通常 Aug intake 11 月至 1 月，Jan intake 7 月至 8 月。</td>
+    </tr>
+    <tr>
+      <td>第一梯队</td>
+      <td>HKUST</td>
+      <td><strong>MSc in Artificial Intelligence</strong><br><span>独立 AI</span></td>
+      <td>FT 1 年 / PT 2 年<br>HK&#36;400,000，约 ¥347,360</td>
+      <td>CE/CS/相关专业；其他专业需 2 年相关工作经验；TOEFL 80 / IELTS 6.5。2026 Fall：2025-11-01 / 2026-01-01 / 2026-03-01。</td>
+    </tr>
+    <tr>
+      <td>第一梯队</td>
+      <td>HKUST</td>
+      <td><strong>MSc in AI and Entrepreneurship</strong><br><span>独立 AI + 创业</span></td>
+      <td>FT 2 年<br>HK&#36;540,000，约 ¥468,936</td>
+      <td>与 MSc(AI) 同口径；第二年含上海实习 / 创业实践。2026 Fall：2025-11-01 / 2026-01-01 / 2026-03-01。</td>
+    </tr>
+    <tr>
+      <td>第一梯队</td>
+      <td>CUHK</td>
+      <td><strong>MSc in Artificial Intelligence</strong><br><span>独立 AI</span></td>
+      <td>FT 1.5 年 / PT 3 年<br>HK&#36;380,000，约 ¥329,992</td>
+      <td>工程/科学学士，通常 honours ≥ Second Class 或平均 B；其他专业需 2 年相关经验；IELTS 6.5 / TOEFL 79；GRE 不要求。2025-10-06 / 2025-11-17 / 2025-12-29 / 2026-02-26。</td>
+    </tr>
+    <tr>
+      <td>第二梯队</td>
+      <td>NUS-ISS</td>
+      <td><strong>Master of Technology in Artificial Intelligence Systems</strong><br><span>独立 AI 系统</span></td>
+      <td>FT 1 年 / PT 2 年<br>学费数值待补；申请费 S&#36;50 未含 GST</td>
+      <td>理工本科且 GPA 至少 B；海外 GRE 或本地 Entrance Test；面试；最好 2 年经验。Jan 2027 PT 应于 2026-10-01 前提交；Aug 2027 FT 于 2026-10-01 开放。</td>
+    </tr>
+    <tr>
+      <td>第二梯队</td>
+      <td>HKU</td>
+      <td><strong>MSc in Artificial Intelligence</strong><br><span>独立 AI</span></td>
+      <td>FT 1.5 年<br>HK&#36;390,000，约 ¥338,676</td>
+      <td>本科；要求线代、微积分、概率、统计、编程基础；GRE/GMAT 不要求。2026-09 入学；截止日待补。</td>
+    </tr>
+    <tr>
+      <td>第二梯队</td>
+      <td>NUS</td>
+      <td><strong>MSc AI for Science</strong><br><span>独立 AI for Science</span></td>
+      <td>FT 1 年 / PT 2 年<br>学费数值待补；申请费 S&#36;100；acceptance fee S&#36;5,450</td>
+      <td>Science / Engineering / Applied Math honours 或 4 年制本科；TOEFL 85 / IELTS 6.0。Early：2026-05-16 至 2026-07-15；Regular：2026-10-01 至 2027-03-15。</td>
+    </tr>
+    <tr>
+      <td>第二梯队</td>
+      <td>CUHK</td>
+      <td><strong>MSc in Artificial Intelligence for Science</strong><br><span>独立 AI for Science</span></td>
+      <td>FT 1.5 年 / PT 3 年<br>HK&#36;350,000，约 ¥303,940</td>
+      <td>完整 admission checklist 待补；Science Faculty / Physics 方向。2026-04-30；rolling，额满可提前结束。</td>
+    </tr>
+    <tr>
+      <td>第二梯队</td>
+      <td>NTU</td>
+      <td><strong>MSc in Artificial Intelligence in Medicine</strong><br><span>医学 AI</span></td>
+      <td>官网明确 FT；30 AUs<br>S&#36;60,000 未含 GST，约 ¥321,804</td>
+      <td>Medicine / Biomedical Sciences / CS / Engineering 等相关本科；TOEFL 100 / IELTS 6.5。2026-01-01 至 2026-03-31。</td>
+    </tr>
+    <tr>
+      <td>第二梯队</td>
+      <td>HKU</td>
+      <td><strong>MSc(CompSc) - AI & Decentralized Technologies Stream</strong><br><span>MSc(CompSc) 内 AI 方向</span></td>
+      <td>FT 1 年 / PT 2 年<br>Local HK&#36;275,000，约 ¥238,810；Non-local HK&#36;375,000，约 ¥325,650</td>
+      <td>stream 级完整门槛待补；按 MSc(CompSc) 招生。Main：2025-12-01；Clearing：2026-04-30。</td>
+    </tr>
+    <tr>
+      <td>第三梯队</td>
+      <td>NUS</td>
+      <td><strong>MSc (Artificial Intelligence & Innovation)</strong><br><span>跨学科 AI / 创新</span></td>
+      <td>FT 12-24 月 / PT 24-36 月<br>S&#36;58,860 含 GST，约 ¥315,690</td>
+      <td>4 年 honours 优先；3 年制本科需 1 年工作经验；TOEFL 85 / IELTS 6.0；GMAT/GRE 非必需。Aug 2027：Nov 2026 至 Jan 2027。</td>
+    </tr>
+    <tr>
+      <td>第三梯队</td>
+      <td>NTU</td>
+      <td><strong>Master of Computing in Applied AI</strong><br><span>应用 AI</span></td>
+      <td>FT 3 trimesters / PT 6 trimesters，但官网口径需确认<br>S&#36;65,400，约 ¥350,766</td>
+      <td>任意学士；TOEFL 85 / IELTS 6.0 或 MOI；2 年经验有优势但非硬性。Aug intake：2025-11-01 至 2026-03-31；Nov intake：2026-03-01 至 2026-05-31。</td>
+    </tr>
+    <tr>
+      <td>第三梯队</td>
+      <td>NTU</td>
+      <td><strong>MSc in Enterprise Artificial Intelligence</strong><br><span>企业 AI / 治理</span></td>
+      <td>FT 1 年 / PT 1.5-3 年<br>学费数值待补</td>
+      <td>任意 honours 本科；TOEFL 90 / IELTS 6.0；PT 最好有 1 年相关经验。2025-11-01 至 2026-03-31。</td>
+    </tr>
+    <tr>
+      <td>高管通道</td>
+      <td>NUS</td>
+      <td><strong>Executive Master in AI and Digital Transformation</strong><br><span>高管 AI / 数字化</span></td>
+      <td>PT 1 年，最长 3 年<br>S&#36;116,000，约 ¥622,154</td>
+      <td>通常要本科；无本科学历但职业成就突出可考虑；至少 8 年全职经验。January 2027 intake 已开放；截止日待补。</td>
+    </tr>
+  </tbody>
+</table>
 
 ## 学校分述
 

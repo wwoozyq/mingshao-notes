@@ -685,6 +685,51 @@ pre {
   border-color: rgba(240, 171, 99, 0.2);
 }
 
+.md-typeset .study-abroad-program-table {
+  display: table;
+  width: 100%;
+  table-layout: fixed;
+  font-size: 0.72rem;
+}
+
+.md-typeset .study-abroad-program-table th,
+.md-typeset .study-abroad-program-table td {
+  white-space: normal;
+  overflow-wrap: anywhere;
+  word-break: normal;
+  vertical-align: top;
+  line-height: 1.65;
+}
+
+.md-typeset .study-abroad-program-table th:nth-child(1),
+.md-typeset .study-abroad-program-table td:nth-child(1) {
+  width: 10%;
+}
+
+.md-typeset .study-abroad-program-table th:nth-child(2),
+.md-typeset .study-abroad-program-table td:nth-child(2) {
+  width: 7%;
+}
+
+.md-typeset .study-abroad-program-table th:nth-child(3),
+.md-typeset .study-abroad-program-table td:nth-child(3) {
+  width: 25%;
+}
+
+.md-typeset .study-abroad-program-table th:nth-child(4),
+.md-typeset .study-abroad-program-table td:nth-child(4) {
+  width: 22%;
+}
+
+.md-typeset .study-abroad-program-table th:nth-child(5),
+.md-typeset .study-abroad-program-table td:nth-child(5) {
+  width: 36%;
+}
+
+.md-typeset .study-abroad-program-table span {
+  color: var(--md-default-fg-color--light);
+}
+
 @media screen and (max-width: 76.2344em) {
   .md-typeset .showcase-grid,
   .md-typeset .infra-grid {
@@ -726,5 +771,31 @@ pre {
   .md-typeset .landing-actions .md-button {
     margin-right: 0;
     text-align: center;
+  }
+
+  .md-typeset .study-abroad-program-table {
+    font-size: 0.68rem;
+  }
+
+  .md-typeset .study-abroad-program-table th:nth-child(1),
+  .md-typeset .study-abroad-program-table td:nth-child(1),
+  .md-typeset .study-abroad-program-table th:nth-child(2),
+  .md-typeset .study-abroad-program-table td:nth-child(2) {
+    width: 12%;
+  }
+
+  .md-typeset .study-abroad-program-table th:nth-child(3),
+  .md-typeset .study-abroad-program-table td:nth-child(3) {
+    width: 26%;
+  }
+
+  .md-typeset .study-abroad-program-table th:nth-child(4),
+  .md-typeset .study-abroad-program-table td:nth-child(4) {
+    width: 22%;
+  }
+
+  .md-typeset .study-abroad-program-table th:nth-child(5),
+  .md-typeset .study-abroad-program-table td:nth-child(5) {
+    width: 28%;
   }
 }
