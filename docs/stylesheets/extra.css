@@ -533,7 +533,9 @@ pre {
 .md-typeset .admonition.codewalk,
 .md-typeset details.codewalk,
 .md-typeset .admonition.pitfall,
-.md-typeset details.pitfall {
+.md-typeset details.pitfall,
+.md-typeset .admonition.homework,
+.md-typeset details.homework {
   border-radius: 1.1rem;
   border-width: 1px;
   box-shadow: var(--notes-shadow);
@@ -567,6 +569,13 @@ pre {
     linear-gradient(180deg, rgba(255, 247, 240, 0.96), rgba(250, 238, 228, 0.94));
 }
 
+.md-typeset .admonition.homework,
+.md-typeset details.homework {
+  border-color: rgba(37, 99, 235, 0.38);
+  background:
+    linear-gradient(180deg, rgba(239, 246, 255, 0.98), rgba(219, 234, 254, 0.9));
+}
+
 .md-typeset .example > .admonition-title,
 .md-typeset details.example > summary {
   background: rgba(188, 97, 45, 0.12);
@@ -587,12 +596,19 @@ pre {
   background: rgba(166, 82, 36, 0.12);
 }
 
+.md-typeset .homework > .admonition-title,
+.md-typeset details.homework > summary {
+  background: rgba(37, 99, 235, 0.14);
+}
+
 .md-typeset .admonition.example .tabbed-set,
 .md-typeset details.example .tabbed-set,
 .md-typeset .admonition.pta .tabbed-set,
 .md-typeset details.pta .tabbed-set,
 .md-typeset .admonition.codewalk .tabbed-set,
-.md-typeset details.codewalk .tabbed-set {
+.md-typeset details.codewalk .tabbed-set,
+.md-typeset .admonition.homework .tabbed-set,
+.md-typeset details.homework .tabbed-set {
   margin-top: 1rem;
 }
 
@@ -631,7 +647,9 @@ pre {
 [data-md-color-scheme="slate"] .md-typeset .admonition.codewalk,
 [data-md-color-scheme="slate"] .md-typeset details.codewalk,
 [data-md-color-scheme="slate"] .md-typeset .admonition.pitfall,
-[data-md-color-scheme="slate"] .md-typeset details.pitfall {
+[data-md-color-scheme="slate"] .md-typeset details.pitfall,
+[data-md-color-scheme="slate"] .md-typeset .admonition.homework,
+[data-md-color-scheme="slate"] .md-typeset details.homework {
   background: rgba(255, 255, 255, 0.04);
   border-color: rgba(95, 111, 105, 0.78);
 }
@@ -654,6 +672,11 @@ pre {
 [data-md-color-scheme="slate"] .md-typeset .pitfall > .admonition-title,
 [data-md-color-scheme="slate"] .md-typeset details.pitfall > summary {
   background: rgba(240, 171, 99, 0.16);
+}
+
+[data-md-color-scheme="slate"] .md-typeset .homework > .admonition-title,
+[data-md-color-scheme="slate"] .md-typeset details.homework > summary {
+  background: rgba(96, 165, 250, 0.16);
 }
 
 [data-md-color-scheme="slate"] .md-typeset .landing-tags span,
