@@ -9,10 +9,12 @@
 - 树
 - 图
 - [算法分析](algorithm-analysis.md)
+- [栈和队列](stack-queue.md)
+- [二叉树](binary-trees.md)
 - [并查集](union-find.md)
 - [线段树](segment-tree.md)
 - [图的定义与拓扑排序](graph-topological-sort.md)
 - [最短路径算法](shortest-path.md)
 - [编程错题本](error-notebook.md)
 
-目前已整理的专题是算法分析、并查集、线段树、图的定义与拓扑排序、最短路径算法和编程错题本，后面会继续补充。
+目前已整理的专题是算法分析、栈和队列、二叉树、并查集、线段树、图的定义与拓扑排序、最短路径算法和编程错题本，后面会继续补充。

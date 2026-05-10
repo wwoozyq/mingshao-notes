@@ -82,6 +82,8 @@ nav:
     - 数据结构基础:
       - 总览: computer/fds/cs-fundamentals.md
       - 一、算法分析: computer/fds/algorithm-analysis.md
+      - 二、栈和队列: computer/fds/stack-queue.md
+      - 三、二叉树: computer/fds/binary-trees.md
       - 并查集: computer/fds/union-find.md
       - 线段树: computer/fds/segment-tree.md
       - 图的定义与拓扑排序: computer/fds/graph-topological-sort.md
