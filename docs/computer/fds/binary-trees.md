@@ -291,6 +291,53 @@ FirstChild-NextSibling / 二叉树视角:
 
 这也是课件里说“把 FirstChild-NextSibling 树顺时针旋转 45°”的直觉来源。
 
+### 普通树和二叉树遍历对应关系
+
+普通树 `T` 转成 FirstChild-NextSibling 二叉树 `BT` 后，有两个常用对应关系：
+
+```text
+T 的 preorder  = BT 的 preorder
+T 的 postorder = BT 的 inorder
+```
+
+为什么 `T` 的 postorder 对应 `BT` 的 inorder？
+
+在普通树中，postorder 是：
+
+```text
+先访问所有孩子子树，最后访问根
+```
+
+转成 `BT` 后：
+
+- 左孩子表示 first child。
+- 右孩子表示 next sibling。
+
+所以对 `BT` 做 inorder：
+
+```text
+先访问左子树 -> 访问根 -> 访问右兄弟
+```
+
+正好对应普通树里“先处理当前结点的孩子们，再处理当前结点，然后处理兄弟”。
+
+!!! homework "例题：普通树转二叉树后的遍历"
+
+    If a general tree `T` is converted into a binary tree `BT`, then which of the following `BT` traversals gives the same sequence as that of the post-order traversal of `T`?
+
+    A. Pre-order traversal  
+    B. In-order traversal  
+    C. Post-order traversal  
+    D. Level-order traversal
+
+点拨：普通树转 FirstChild-NextSibling 二叉树后，普通树的 postorder 对应二叉树的 inorder。
+
+答案：
+
+```text
+B. In-order traversal
+```
+
 ## 8. 表达式树 Expression Tree
 
 表达式树用树表示表达式：
