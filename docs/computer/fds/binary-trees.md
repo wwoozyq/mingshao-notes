@@ -65,6 +65,60 @@ degree(tree) = 3
 - `B, C, D` 是 siblings。
 - `F, G, I, J, K, L, M` 都是 leaves。
 
+### 度数和叶子数公式
+
+对任意非空树，边数有两种数法。
+
+第一种：有 `n` 个结点的树有：
+
+```text
+n - 1
+```
+
+条边。
+
+第二种：把所有结点的孩子数加起来，也就是把所有结点的 degree 加起来。  
+如果 `ni` 表示 degree 为 `i` 的结点个数，那么：
+
+```text
+边数 = 1*n1 + 2*n2 + 3*n3 + ... + k*nk
+```
+
+总节点数是：
+
+```text
+n = n0 + n1 + n2 + ... + nk
+```
+
+两式相减，可以得到普通树常用公式：
+
+```text
+n0 = 1 + n2 + 2n3 + 3n4 + ... + (k - 1)nk
+```
+
+也就是：
+
+```text
+叶子数 = 1 + 所有非叶结点的“多出来的孩子数”之和
+```
+
+!!! homework "例题：树的 degree 和叶子数"
+
+    Given a tree of degree 3. Suppose that there are 3 nodes of degree 2 and 2 nodes of degree 3. Then the number of leaf nodes must be ___.
+
+    A. `5`  
+    B. `6`  
+    C. `7`  
+    D. `8`
+
+点拨：普通树用公式 `n0 = 1 + n2 + 2n3`。这里 `n2 = 3`，`n3 = 2`。
+
+答案：
+
+```text
+n0 = 1 + 3 + 2*2 = 8
+```
+
 ## 3. 路径、深度和高度
 
 ### 路径 Path
@@ -575,6 +629,27 @@ n - 1
 
 这说明普通二叉树里有很多空指针域。  
 线索二叉树就是想利用这些空指针。
+
+### 二叉树结点数例题
+
+!!! homework "例题：二叉树是否存在"
+
+    There exists a binary tree with `2016` nodes in total, and with `16` nodes having only one child.
+
+    判断这句话是否正确。
+
+点拨：二叉树满足 `n0 = n2 + 1`，且 `n = n0 + n1 + n2`。已知 `n = 2016`，`n1 = 16`。
+
+答案：
+
+```text
+n0 = n2 + 1
+2016 = n0 + 16 + n2
+2016 = (n2 + 1) + 16 + n2
+1999 = 2n2
+```
+
+`n2 = 999.5` 不是整数，所以这样的二叉树不存在。原命题是 false。
 
 ## 17. 线索二叉树 Threaded Binary Tree
 
