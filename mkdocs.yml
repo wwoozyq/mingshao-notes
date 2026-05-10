@@ -86,7 +86,7 @@ nav:
       - 三、二叉树: computer/fds/binary-trees.md
       - 四、搜索树: computer/fds/search-tree.md
       - 五、优先队列: computer/fds/priority-queues.md
-      - 并查集: computer/fds/union-find.md
+      - 六、并查集: computer/fds/union-find.md
       - 线段树: computer/fds/segment-tree.md
       - 图的定义与拓扑排序: computer/fds/graph-topological-sort.md
       - 最短路径算法: computer/fds/shortest-path.md
