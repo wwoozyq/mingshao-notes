@@ -30,6 +30,21 @@ BST 是一种特殊的二叉树，可以为空；如果非空，则满足：
 左子树 < 当前结点 < 右子树
 ```
 
+!!! homework "例题：BST 中相邻 key 的父子关系"
+    Given a binary search tree with 20 integer keys which include 4, 5, and 6, if 4 and 6 are on the same level, then 5 must be their parent.
+
+反例：
+
+```text
+        5
+       / \
+      3   7
+       \ /
+        4 6
+```
+
+答案：`F`
+
 ## 2. BST ADT
 
 常见操作：
