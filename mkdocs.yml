@@ -82,14 +82,15 @@ nav:
     - 数据结构基础:
       - 总览: computer/fds/cs-fundamentals.md
       - 一、算法分析: computer/fds/algorithm-analysis.md
-      - 二、栈和队列: computer/fds/stack-queue.md
-      - 三、二叉树: computer/fds/binary-trees.md
-      - 四、搜索树: computer/fds/search-tree.md
-      - 五、优先队列: computer/fds/priority-queues.md
-      - 六、并查集: computer/fds/union-find.md
-      - 线段树: computer/fds/segment-tree.md
-      - 图的定义与拓扑排序: computer/fds/graph-topological-sort.md
-      - 最短路径算法: computer/fds/shortest-path.md
+      - 二、列表: computer/fds/list.md
+      - 三、栈和队列: computer/fds/stack-queue.md
+      - 四、二叉树: computer/fds/binary-trees.md
+      - 五、搜索树: computer/fds/search-tree.md
+      - 六、优先队列: computer/fds/priority-queues.md
+      - 七、并查集: computer/fds/union-find.md
+      - 八、线段树: computer/fds/segment-tree.md
+      - 九、图的定义与拓扑排序: computer/fds/graph-topological-sort.md
+      - 十、最短路径算法: computer/fds/shortest-path.md
       - 编程错题本: computer/fds/error-notebook.md
     - Hot100 刷题: computer/hot100.md
   - 工具:
